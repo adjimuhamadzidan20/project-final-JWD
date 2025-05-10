@@ -36,8 +36,8 @@ if (isset($_SESSION['user_id'])) {
 <?php
 }
 ?>
-<h2 class="sub-title">Daftar Produk</h2>
 
+<h2 class="sub-title">Daftar Produk</h2>
 <form method="GET" action="">
     <input type="text" name="keyword" placeholder="Cari produk atau kategori..." value="<?php echo htmlspecialchars($keyword); ?>" class="cari-input">
     <button type="submit" class="btn-cari">Cari</button>
